@@ -1,0 +1,138 @@
+
+
+/*NAVIGATION*/
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;   
+    position: absolute;
+}
+.navigation ul{
+    margin: 0;
+}
+
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px 0;
+}
+
+.navigation li a {
+    color: white;
+}
+
+.navigation .colapse-menu{
+    width: 20%;
+}
+
+
+
+/*HERO*/
+
+.hero {
+    text-align: center;
+    background-image: url("../images/background-img.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    padding-top: 100px;
+    
+}
+
+h1{
+    font-size: 4.5em;
+}
+
+.hero p{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.hero .button{
+    background-color: rgb(55, 156, 214);
+    padding: 25px 20px;
+    display: block;
+    margin: 50px 450px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 1.1em;
+    
+}
+/*BRANDS*/
+.brands{
+    padding:100px 0;
+
+}
+.brands p{
+    text-align: center;
+}
+
+.brands img{
+    width: 100px;
+}
+
+.students {
+    width: 100%;
+}
+
+
+/*ESTADISTICAS*/
+
+.estadisticas{
+    margin: auto 200px;
+    text-align: center;
+    
+}
+.estadisticas h2{
+    font-size: 4em;
+}
+
+.estadisticas p{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*WHY TO STUDY*/
+
+.why-to-study{
+    padding: 20px 200px;
+}
+
+.why-to-study h3{
+    text-align: center;
+}
+
+.why-to-study article{
+    display: flex;
+}
+
+/*QUOTES*/
+.orange{
+    color:orange;
+    font-size: 1.3em;
+}
+
+.quote aside h4{
+    font-size: 0.9em;
+}
+.quote aside p{
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+.shadow {
+    box-shadow:  0 16px 32px 0 rgba(0,0,0,.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 100px auto;
+    
+}
+
+
+/* COURSES */
+
