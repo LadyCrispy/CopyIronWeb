@@ -136,3 +136,16 @@ h1{
 
 /* COURSES */
 
+.courses{
+    background-color: whitesmoke;
+    padding: 100px 200px;
+}
+
+.bootcamp-button{
+    
+}
+
+.bootcamp-button:hover {
+    background-color: white;
+}
+
